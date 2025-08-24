@@ -79,17 +79,12 @@ nav ul li a:hover {
   text-align: justify;
 }
 
-/* Shape */
-.hero-shape {
-  flex: 1 1 35%;
-  display: flex;
-  justify-content: center;  
-  align-items: center;     
-}
-.hero-shape img {  
-  max-width: 100%;
-  height: auto;
-  transform: translate(30px, 40px);
+.hero-shape img {
+  width: 250px;   /* atur ukuran sesuai keinginan, misal 200px - 300px */
+  height: auto;   /* biar proporsional */
+  border-radius: 12px; 
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
 
 /* Responsive */
